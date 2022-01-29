@@ -1,0 +1,32 @@
+<div>
+    <h1 style="text-transform: uppercase;" class="text-center">Dashboard</h1>
+
+</div>
+<div class="container w-100">
+    <button class="btn btn-danger md-0" routerLink="/additem" >Add Item</button>
+</div>
+ <div>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of myArray">
+            <th scope="row">{{item.id}}</th>
+            <td>{{item.name}}</td>
+            <td>{{item.email}}</td>
+            <td>{{item.city}}</td>
+            <td><button class="btn btn-info" (click)="deleteBtn(item.id)">delete</button></td>
+          </tr>
+        </tbody>
+      </table>
+ </div>
+<div>
+    <button (click)="hello()">api data call</button>
+</div>

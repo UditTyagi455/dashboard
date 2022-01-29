@@ -1,0 +1,18 @@
+<form class="login_page" #myform="ngForm" autocomplete="off" (ngSubmit)="onSubmit(myform.value)" novalidate>
+    <div class="container box">
+        <h2 class="text-center"  style="text-transform: uppercase;margin-bottom: 10px;">login form</h2>
+      <div class="row card">
+          
+        <div class="mb-3 login_box">
+            <label class="form-label">Email address</label>
+            <input type="email" name="emailfield" #email='ngModel' [(ngModel)]="userModel.email" class="form-control" placeholder="name@example.com">
+          </div>
+          <div class="mb-3 login_box">
+            <label class="form-label">Password</label>
+            <input type="password" name="passfield" #pass="ngModel" [(ngModel)]="userModel.password" class="form-control" placeholder="Enter the password....">
+          </div>
+          <button class="btn btn-success">Log in</button>
+      </div>
+    </div>
+    
+</form>

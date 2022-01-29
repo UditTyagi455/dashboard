@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "udit ",
+      "email": "test@gmail.com",
+      "city": "muzaffarnagar"
+    },
+    {
+      "name": "sharukh",
+      "email": "name@test.com",
+      "city": "mohali",
+      "id": 2
+    },
+    {
+      "name": "ravi",
+      "email": "ravi@gmail.com",
+      "city": "muzaffarnagar",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.login_page{
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.box{
+    width: 35rem;
+    height: 26rem;
+    /* border : 2px solid red; */
+}
+.login_box{
+    padding: 12px;
+}
+.login_box input{
+    padding: 8px 11px;
+}
+.login_box label{
+    font-size: 2rem;
+}
+button{
+    display: flex;
+    margin: 0px auto;
+    padding: 7px 9px;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 38px;
+}
