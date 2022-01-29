@@ -12,11 +12,14 @@ export class UserComponent implements OnInit {
   myArray: any;
 
   ngOnInit(): void {
-   this.apidata.getApiData().subscribe(
-     data =>{
-       this.myArray =data
-     }
-   )
+   this.getData()
+  }
+  getData(){
+    this.apidata.getApiData().subscribe(
+      data =>{
+        this.myArray =data
+      }
+    )
   }
   hello(){
     this.apidata.getApiData().subscribe(
@@ -29,10 +32,10 @@ export class UserComponent implements OnInit {
   deleteBtn(value:any){
     this.apidata.deleteData(value).subscribe(
       data =>{
-        alert("delete btn");
+        alert("Record Deleted");
+        this.getData();
       }
     )   
-
   }
 
 }

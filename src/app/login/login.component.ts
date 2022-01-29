@@ -18,6 +18,8 @@ export class LoginComponent implements OnInit {
     console.log("value: ",value);
     if(value.emailfield === "u@gmail.com" && value.passfield === '1234'){
        this.route.navigate(['/user']);
+    }else {
+      alert("please enter again")
     }
     
   }

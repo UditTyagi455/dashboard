@@ -1,31 +1,25 @@
 {
   "posts": [
     {
-      "id": 1,
-      "name": "udit ",
-      "email": "test@gmail.com",
-      "city": "muzaffarnagar"
-    },
-    {
-      "name": "sharukh",
-      "email": "name@test.com",
-      "city": "mohali",
-      "id": 2
-    },
-    {
-      "name": "ravi",
-      "email": "ravi@gmail.com",
+      "name": "udit tyagi",
+      "email": "udittyagi455@gmail.com",
       "city": "muzaffarnagar",
-      "id": 3
-    }
-  ],
-  "comments": [
+      "id": 1
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "piyush",
+      "email": "piyush@gmail.com",
+      "city": "sre",
+      "id": 6
+    },
+    {
+      "name": "shubham rana",
+      "email": "rana@gmail.com",
+      "city": "shamli",
+      "id": 7
     }
   ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }
