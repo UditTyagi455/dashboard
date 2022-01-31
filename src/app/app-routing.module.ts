@@ -16,11 +16,15 @@ const routes: Routes = [
   },
   {
     path: "user",
-    component: UserComponent,  
+    component: UserComponent,
   },
   {
     path: "additem",
     component: AdditemComponent
+  },
+  {
+    path: "**",
+    redirectTo: "/login"
   }
 ];
 

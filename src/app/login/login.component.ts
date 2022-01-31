@@ -13,6 +13,10 @@ export class LoginComponent implements OnInit {
   constructor(private route:Router) { }
   userModel =new User("","");
   ngOnInit(): void {
+    localStorage.setItem('myLSkey', JSON.stringify({
+      'emailfield': 'u@gmail.com',
+      'passfield': '1234'
+    }))
   }
   onSubmit(value:any){
     console.log("value: ",value);

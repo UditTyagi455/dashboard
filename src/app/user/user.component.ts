@@ -37,5 +37,11 @@ export class UserComponent implements OnInit {
       }
     )   
   }
-
+  // editBtn(val1:any,val2:any){
+  //  this.apidata.editData(val1,val2).subscribe(
+  //    data =>{
+  //       alert("edit")
+  //    }
+  //  )
+  // }
 }

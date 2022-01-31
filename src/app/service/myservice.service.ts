@@ -18,4 +18,7 @@ export class MyserviceService {
   deleteData(value:any){
     return this.http.delete(`http://localhost:3000/posts/${value}`);
   }
+  // editData(id:any,data:any){
+  //   return this.http.put(`http://localhost:3000/posts/${id}`,data)
+  // }
 }
